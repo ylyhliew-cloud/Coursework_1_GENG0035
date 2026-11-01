@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/gaming.png">
+            <div class="text">
+                <h1>Game<span>World</span></h1>
+                <p>PLAY · EXPLORE · DISCOVER</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Category.html">Category</a></li>
+                <li><a href="Guides.html">Guides</a></li>
+                <li><a href="Reviews.html">Reviews</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Credits.html">Credits</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Place your reviews here</h1>
+    <div class="container-column"> 
+        <div class="container2">
+            <div class="review_group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name"required>
+            </div> 
+            <div class="review_group">
+                <label for="review-type">Review Type</label>
+                <select id="review-type" name="review-type" required>
+                    <option value="Select" disabled selected>Please select an option</option>
+                    <option value="Games">Missing Games</option>
+                    <option value="Problems">Website Problem</option>
+                    <option value="News">Not Updated News</option>
+                    <option value="Links">Unresponsive Links</option>
+                    <option value="Other">Others</option>
+                </select>
+            </div>
+            <div class="review_group">
+                <label for="Other_If">If "Others" is selected, please specify. If not, type "N/A"</label>
+                <input type="text" id="Other_If" name="Other_If" required>
+            </div> 
+            <div class="review_group">
+                <label for="review">Write your Review Here</label>
+                <input type="text" id="review" name="review" required style="height: 150px;">
+            </div>
+            <a href="Reviews-tq.html">
+                <button type="submit">Submit</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
